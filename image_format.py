@@ -2,7 +2,7 @@
 import os
 from PIL import Image
 old_path = os.path.expanduser('~') + '/images/'
-new_path = '/opt/icons/'
+new_path = '/opt/icons/' #folder to save updated images
 for image in os.listdir(old_path):
         if image == ".DS_Store":
             continue
